@@ -12,13 +12,40 @@ header {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     width: 90%;
     height: 100%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-
 }
+
+.menu.item {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    border: red solid 1px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #b4d0e7;
+    margin-bottom: 20px;
+}
+
+.container.jumbotron {
+    width: 70%;
+    margin: auto;
+}
+
+/* main */
+
+.container.plansandoptions {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
 
  
 
@@ -38,4 +65,24 @@ nav {
     height: 100%;
     width: 20%;
     border: red solid 1px;
+}
+
+.jumbotron {
+    height: 300px;
+}
+
+.container.jumbotron {
+    border: red solid 1px;
+    height: 100%;
+}
+
+/* main */
+
+main {
+    background-color: grey;
+    height: 500px;
+}
+
+.container.plansandoptions {
+    border: red 1px solid;
 }
