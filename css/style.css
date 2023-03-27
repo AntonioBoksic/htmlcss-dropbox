@@ -1,6 +1,41 @@
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+header {
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+}
+
+nav {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ 
+
+/*  */
+/* debug */
+/*  */
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    border: black solid 2px;
+}
+
+.menu.item {
+    height: 100%;
+    width: 20%;
+    border: red solid 1px;
 }
