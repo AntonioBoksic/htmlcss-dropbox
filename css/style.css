@@ -208,10 +208,28 @@ main {
     background-color: white;
 }
 
-.faq {
-    height: 50px;
-    border: crimson 1px solid;
+
+
+.faq-section h2 {
+    padding: 25px 0px;
+    border-bottom: grey 1px solid;
+
 }
+
+.faq {
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 0px;
+    border-bottom: grey 1px solid;
+}
+
+.faq i {
+    position:absolute;
+    right: 20px;
+}
+
+
 
 /* footer  */
 
@@ -263,7 +281,6 @@ footer {
     padding-right: 2px;
 }
  
-
 /*  */
 /* debug */
 /*  */
@@ -313,6 +330,11 @@ main {
 .container.plansandoptions {
     border: red 1px solid;
 }
+
+/* .faq {
+    height: 50px;
+    border: crimson 1px solid;
+} */
 
 /* footer  */
 
