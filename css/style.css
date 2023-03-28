@@ -31,21 +31,200 @@ nav {
 .jumbotron {
     background-color: #b4d0e7;
     margin-bottom: 20px;
+
+    height: 400px;
+
+    position: relative;
+    top: 80px;
 }
 
-.container.jumbotron {
+.container-jumbotron {
     width: 70%;
+    height: 100%;
     margin: auto;
+    border: 1px blue solid;
+}
+
+.title-jumbotron {
+    border: orange 2px solid;
+    height: 20%;
+}
+
+.containerflex-jumbotron {
+display: flex;
+    height: 80%;
+    border: brown 2px solid;
+}
+
+.text-jumbotron {
+    width: 40%;
+    height: 100%;
+    border: black solid 1px;
+}
+
+.img-jumbotron {
+    width: 60%;
+    height: 100%;
+    border: black solid 1px;
 }
 
 /* main */
 
-.container.plansandoptions {
-    height: 100%;
+main {
+    position: relative;
+    top: 80px;
+}
+
+.container-main {
     width: 60%;
     margin: auto;
 }
 
+.title-plans {
+    height: 50px;
+    background-color: red;
+}
+
+.col-plans {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+
+.plan {
+    width: calc(100% /3 - 10px);
+    height: 100%;
+    border: purple 2px solid;
+}
+
+.row-plans {
+    height: 100px;
+    background-color: blue;
+}
+
+.contact-partner {
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.img-partner {
+    width: 55%;
+    border: black 1px solid;
+}
+
+.text-partner {
+    width: 45%;
+    border: black 1px solid;
+}
+
+.title-operations {
+    height: 50px;
+    background-color: red;
+}
+
+.col-operations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+.operation {
+    width: calc(100% /3 - 10px);
+    height: 200px;
+    border: purple 2px solid;
+    margin-bottom: 5px;
+}
+
+.partners-section {
+    display: flex;
+    height: 300px;
+    width: 100vw;
+    background-color: coral;
+}
+
+.partners.left {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.partners.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.partner {
+    width: 50%;
+    height: 50%;
+    border: black 1px solid;
+}
+
+.partners.middle {
+    width: calc(100% / 3);
+}
+
+.title-bottom {
+    height: 50px;
+    background-color: red;
+}
+
+.faq-section {
+    background-color: white;
+}
+
+.faq {
+    height: 50px;
+    border: crimson 1px solid;
+}
+
+/* footer  */
+
+footer {
+    background-color: black;
+    height: 300px;
+    position: relative;
+    top: 80px;
+}
+
+.container-footer {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border: 1px blue solid;
+}
+
+.footer-grande {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: greenyellow solid 1px;
+}
+
+.footer-col {
+    width: 20%;
+    height: 100%;
+    border: white solid 1px;
+
+}
+
+.divisore {
+    border-top: white solid 1px;
+    margin: 5px 0px;
+    width: 10%;
+}
+
+.footer-piccolo {
+    color: white;
+    margin: 20px;
+}
 
  
 
@@ -67,20 +246,14 @@ nav {
     border: red solid 1px;
 }
 
-.jumbotron {
-    height: 300px;
-}
+/* jumbotron  */
 
-.container.jumbotron {
-    border: red solid 1px;
-    height: 100%;
-}
 
 /* main */
 
 main {
     background-color: grey;
-    height: 500px;
+    height: 2100px;
 }
 
 .container.plansandoptions {
