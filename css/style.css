@@ -217,43 +217,51 @@ main {
 
 footer {
     background-color: black;
-    height: 300px;
     position: relative;
     top: 80px;
 }
 
 .container-footer {
     width: 65%;
-    height: 100%;
     margin: auto;
-    border: 1px blue solid;
 }
 
 .footer-grande {
-    height: 80%;
     display: flex;
     justify-content: space-between;
-    border: greenyellow solid 1px;
+    
 }
 
 .footer-col {
     width: 20%;
-    height: 100%;
-    border: white solid 1px;
-
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
-.divisore {
-    border-top: white solid 1px;
-    margin: 5px 0px;
-    width: 10%;
+.footer-col h3 {
+    padding-bottom: 20px;
+}
+
+.footer-col a {
+    display: block;
+    color: white;
+    padding: 3px 0px;
+    font-size: 13px;
 }
 
 .footer-piccolo {
-    color: white;
-    margin: 20px;
+    color: #5e5e5e;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    font-size: 11px;
+    width: 10%;
+    border-top: white 1px solid;
 }
 
+.footer-piccolo * {
+    padding-right: 2px;
+}
  
 
 /*  */
@@ -305,3 +313,17 @@ main {
 .container.plansandoptions {
     border: red 1px solid;
 }
+
+/* footer  */
+
+/* .container-footer {
+    border: 1px blue solid;
+} */
+
+/* .footer-grande {
+    border: greenyellow solid 1px;
+} */
+
+/* .footer-col {
+    border: white solid 1px;
+} */
