@@ -9,6 +9,7 @@ header {
     width: 100vw;
     position: fixed;
     z-index: 999;
+    background-color: white;
 }
 
 nav {
@@ -21,9 +22,21 @@ nav {
 
 .menu.item {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
-    width: 20%;
-    border: red solid 1px;
+}
+
+a {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: #0061ff;
+    padding: 4px 8px;
+    border: none;
 }
 
 /* jumbotron */
@@ -232,18 +245,21 @@ footer {
 /* debug */
 /*  */
 
-header {
+/* header {
     background-color: aqua;
-}
+} */
 
-nav {
+/* nav {
     border: black solid 2px;
-}
+} */
 
-.menu.item {
+/* .menu.item {
     height: 100%;
-    width: 20%;
     border: red solid 1px;
+} */
+
+.menu.item * {
+    margin: 0px 5px;
 }
 
 /* jumbotron  */
