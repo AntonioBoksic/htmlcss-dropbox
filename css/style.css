@@ -59,7 +59,6 @@ button {
     width: 65%;
     height: 100%;
     margin: auto;
-    border: 1px blue solid;
 }
 
 h1 {
@@ -74,12 +73,17 @@ h1 {
 }
 
 .text-jumbotron {
-    height: 40%;
     width: 40%;
 }
 
 .text-jumbotron *{
     margin-bottom: 15px;
+}
+
+.fa-arrow-down {
+    font-size: 30px;
+    position: relative;
+    top: 60px;
 }
 
 .img-jumbotron {
@@ -118,6 +122,7 @@ main {
 .col-plans {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     width: 100%;
 }
 
@@ -139,7 +144,6 @@ main {
     width: 80%;
     margin: auto;
     padding: 30px 0px;
-    border: #d5001f 1px solid;
     font-size: 12px;
 }
 
@@ -188,13 +192,30 @@ main {
     color: #0061ff;
 }
 
-
-
-
 .row-plans {
-    height: 100px;
-    background-color: blue;
+   border: black 1px solid;
+    margin-top: 15px;
 }
+
+.container-plan.horizontal {
+    position: relative;
+    width: 94%;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 12px;
+}
+
+.container-plan.horizontal button {
+    width: 20%;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.container-plan.horizontal .price {
+    padding-bottom: 25px;
+}
+
 
 /* partner section  */
 
@@ -472,6 +493,10 @@ footer {
     height: 400px;
 } */
 
+/* .container-jumbotron {
+    border: 1px blue solid;
+} */
+
 /* .containerflex-jumbotron {
     display: flex;
     height: 200px;
@@ -509,6 +534,11 @@ footer {
 /* .title-plans {
     height: 50px;
     background-color: red;
+} */
+
+/* .row-plans {
+    height: 100px;
+    background-color: blue;
 } */
 
 
