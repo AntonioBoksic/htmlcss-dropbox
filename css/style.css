@@ -170,6 +170,23 @@ main {
     margin-bottom: 5px;
 }
 
+/* pre-partners  */
+
+.pre-partners {
+    padding: 100px 0px; ;
+}
+
+.pre-partners h2 {
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.pre-partners a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 12px;
+}
+
 /* partners section  */
 
 .partners-section {
@@ -245,9 +262,6 @@ main {
 .partners.right .partner:nth-of-type(4){
     background-color:  #ffd830;
 }
-
-
-
 
 /* sezione prova gratuira  */
 
