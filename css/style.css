@@ -199,20 +199,39 @@ main {
     width: calc(100% / 3);
 }
 
-.title-bottom {
-    height: 50px;
-    background-color: red;
+/* sezione prova gratuira  */
+
+.free-trial {
+    /* height: 50px; */
+    background-color: #b4d0e7;
+    padding: 100px 0px;
 }
+
+.free-trial .container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-trial h2 {
+    color: #610627;
+}
+
+.free-trial button {
+    background-color: white;
+    color: #5e5e5e;
+}
+
+/* faq  */
 
 .faq-section {
     background-color: white;
+    padding: 100px 0px;
 }
 
-
-
 .faq-section h2 {
-    padding: 25px 0px;
+    padding-bottom: 25px;
     border-bottom: grey 1px solid;
+    
 
 }
 
@@ -228,7 +247,6 @@ main {
     position:absolute;
     right: 20px;
 }
-
 
 
 /* footer  */
@@ -322,10 +340,10 @@ footer {
 
 /* main */
 
-main {
+/* main {
     background-color: grey;
     height: 2100px;
-}
+}  */
 
 .container.plansandoptions {
     border: red 1px solid;
