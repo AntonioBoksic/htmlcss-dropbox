@@ -150,8 +150,7 @@ main {
 }
 
 .title-operations {
-    height: 50px;
-    background-color: red;
+  padding: 50px 0px;
 }
 
 .col-operations {
@@ -168,6 +167,11 @@ main {
     height: 200px;
     border: purple 2px solid;
     margin-bottom: 5px;
+}
+
+.operation img{
+    width: 100%;
+    height: 100%;
 }
 
 /* pre-partners  */
@@ -412,6 +416,18 @@ footer {
 .container.plansandoptions {
     border: red 1px solid;
 }
+
+/* operations  */
+
+/* .operation {
+    height: 200px;
+    border: purple 2px solid;
+} */
+
+/* .title-operations {
+    height: 50px;
+    background-color: red;
+} */
 
 /* .faq {
     height: 50px;
