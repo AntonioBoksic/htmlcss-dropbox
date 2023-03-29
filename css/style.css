@@ -107,24 +107,89 @@ main {
 }
 
 .title-plans {
-    height: 50px;
-    background-color: red;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.radio-button {
+    margin-right: 20px;
 }
 
 .col-plans {
     display: flex;
     justify-content: space-between;
-    height: 400px;
     width: 100%;
-    background-color: azure;
 }
 
 
 .plan {
     width: calc(100% /3 - 10px);
     height: 100%;
-    border: purple 2px solid;
+    border: black 1px solid;
 }
+
+.single-or-team {
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 0px;
+    border-bottom: black 1px solid;
+}
+
+.container-plan {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    border: #d5001f 1px solid;
+    font-size: 12px;
+}
+
+.container-plan h3 {
+    font-size: 18px;
+}
+
+.price {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.container-plan ul {
+    margin: 30px 0px;
+    list-style: none;
+}
+
+.container-plan li {
+    margin: 5px 0px;
+    font-size: 12px;
+}
+
+.container-plan button {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.buy-now a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.divisore {
+    
+    width: 25%;
+    margin: 20px 0px;
+    border-top:black 1px solid;
+}
+
+.highlights * {
+    margin: 5px 0px;
+}
+.fa-check {
+    color: #0061ff;
+}
+
+
+
 
 .row-plans {
     height: 100px;
@@ -315,8 +380,6 @@ main {
 .faq-section h2 {
     padding-bottom: 25px;
     border-bottom: grey 1px solid;
-    
-
 }
 
 .faq {
@@ -431,9 +494,22 @@ footer {
     height: 2100px;
 }  */
 
-.container.plansandoptions {
-    border: red 1px solid;
-}
+/* plans  */
+
+/* .col-plans {
+   
+    height: 400px;
+    background-color: azure;
+} */
+
+/* .container-plan {
+    border: #d5001f 1px solid;
+} */
+
+/* .title-plans {
+    height: 50px;
+    background-color: red;
+} */
 
 
 /* partner section  */
