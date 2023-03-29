@@ -170,9 +170,11 @@ main {
     margin-bottom: 5px;
 }
 
+/* partners section  */
+
 .partners-section {
     display: flex;
-    height: 300px;
+    height: 350px;
     width: 100vw;
     background-color: coral;
 }
@@ -183,6 +185,11 @@ main {
     width: calc(100% / 3);
 }
 
+.partners.middle {
+    width: calc(100% / 3);
+    background-color: #f5f5f5;
+}
+
 .partners.right {
     display: flex;
     flex-wrap: wrap;
@@ -190,14 +197,57 @@ main {
 }
 
 .partner {
+    position: relative;
     width: 50%;
     height: 50%;
     border: black 1px solid;
 }
 
-.partners.middle {
-    width: calc(100% / 3);
+.partner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
 }
+
+.partners.left .partner:nth-of-type(1){
+    background-color: #a2d39b;
+}
+
+.partners.left .partner:nth-of-type(2){
+    background-color:  #61082b;
+}
+
+.partners.left .partner:nth-of-type(3){
+    background-color: #0093ce;
+}
+
+.partners.left .partner:nth-of-type(4){
+    background-color:  #ff1c1c;
+}
+
+.partners.right .partner:nth-of-type(1){
+    background-color: #d5001f;
+}
+
+.partners.right .partner:nth-of-type(2){
+    background-color: #b4d0e7;
+}
+
+.partners.right .partner:nth-of-type(3){
+    background-color: #0d2481;
+}
+
+.partners.right .partner:nth-of-type(4){
+    background-color:  #ffd830;
+}
+
+
+
 
 /* sezione prova gratuira  */
 
