@@ -131,20 +131,36 @@ main {
     background-color: blue;
 }
 
-.contact-partner {
-    height: 400px;
-    background-color: blueviolet;
+/* partner section  */
+
+.partner-section {
     display: flex;
+    margin-top: 20px;
 }
 
 .img-partner {
     width: 55%;
-    border: black 1px solid;
+}
+
+.img-partner img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .text-partner {
     width: 45%;
+
+    padding: 20px;
+}
+
+.text-partner * {
+    margin-bottom: 15px;
+}
+
+.text-partner button {
     border: black 1px solid;
+    color: black;
+    background-color: white;
 }
 
 /* operations  */
@@ -366,9 +382,11 @@ footer {
 .footer-piccolo * {
     padding-right: 2px;
 }
- 
+
+/*  */
 /*  */
 /* debug */
+/*  */
 /*  */
 
 /* header {
@@ -416,6 +434,23 @@ footer {
 .container.plansandoptions {
     border: red 1px solid;
 }
+
+
+/* partner section  */
+
+/* .partner-section {
+    height: 400px;
+    background-color: blueviolet;
+} */
+
+/* .img-partner {
+    border: black 1px solid;
+} */
+
+/* .text-partner {
+    
+    border: black 1px solid;
+} */
 
 /* operations  */
 
